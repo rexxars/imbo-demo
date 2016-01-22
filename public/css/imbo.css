@@ -1,0 +1,85 @@
+body {
+  color: #333;
+  background: #f7f2d3;
+  background: -moz-radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, white), color-stop(100%, #f7f2d3));
+  background: -webkit-radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
+  background: -o-radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
+  background: -ms-radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
+  background: radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
+}
+
+#root {
+  font-family: 'Roboto', sans-serif;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+header h1 {
+  border-bottom: 1px solid #333;
+  margin: 0.25em 0;
+}
+
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+.image-controls {
+  background: url(checkerboard.png);
+  margin-top: 1em;
+  border: 1px solid #333;
+  padding: 15px;
+  width: 100%;
+  position: relative;
+}
+
+.image-controls img {
+  margin: 0 auto;
+  display: block;
+}
+
+.transformations {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 200px;
+  background: #2c3e50;
+}
+
+.transformations .pure-menu-heading {
+  color: #fff;
+  background: #34495e;
+}
+
+.transformations a, .transformations a:active, .transformations a:focus {
+  color: #ecf0f1;
+  background: #2c3e50;
+}
+
+.transformations a:hover {
+  background: #2980b9;
+}
+
+.image-picker {
+  margin: 25px 0;
+}
+
+.image-picker li {
+  display: inline-block;
+}
+
+.image-picker a {
+  border: 5px solid transparent;
+  display: block;
+}
+
+.image-picker a:hover {
+  border-color: #2980b9;
+}

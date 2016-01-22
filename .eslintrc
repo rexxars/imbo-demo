@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "bengler",
+    "bengler/react"
+  ],
+  "rules": {
+    "operator-linebreak": 0,
+    "no-console": 0
+  }
+}
